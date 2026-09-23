@@ -1,0 +1,17 @@
+#!/bin/bash
+
+<< Comment
+This is my first scripting
+Comment
+
+name="Danish"
+
+echo "Name is $name, and date is $(date)"
+
+echo "enter the name"
+
+read username
+
+echo "You entered $username"
+
+echo "The characters $0 are: $1 $2"
